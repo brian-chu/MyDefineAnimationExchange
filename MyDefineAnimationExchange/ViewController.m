@@ -16,6 +16,7 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
+ 
     // Do any additional setup after loading the view, typically from a nib.
 }
 
@@ -23,5 +24,19 @@
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
 }
+
+- (void)viewWillAppear:(BOOL)animated {
+    [super viewWillAppear:animated];
+    [self createCoreAnimation];
+}
+
+- (void)createCoreAnimation {
+    CATransition *ca=[CATransition animation];
+    ca.type = @"cube";
+    ca.subtype = kCATransitionFromLeft;
+    ca.duration = 1.0;
+    [self.navigationController.view.layer addAnimation:ca forKey:nil];
+}
+
 
 @end

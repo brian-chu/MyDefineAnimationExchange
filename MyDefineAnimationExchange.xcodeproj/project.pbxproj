@@ -15,6 +15,11 @@
 		0055281F1B70C2520093A91A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0055281E1B70C2520093A91A /* Images.xcassets */; };
 		005528221B70C2520093A91A /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 005528201B70C2520093A91A /* LaunchScreen.xib */; };
 		0055282E1B70C2520093A91A /* MyDefineAnimationExchangeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0055282D1B70C2520093A91A /* MyDefineAnimationExchangeTests.m */; };
+		005528391B70C5330093A91A /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 005528381B70C5330093A91A /* FirstViewController.m */; };
+		0057CBA51B71A53B0005D3F5 /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0057CBA41B71A53B0005D3F5 /* SecondViewController.m */; };
+		0057CBA81B71A54D0005D3F5 /* ThirdViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0057CBA71B71A54D0005D3F5 /* ThirdViewController.m */; };
+		0057CBAB1B71A6290005D3F5 /* MyDefineSonClassOfStoryboardSegue.m in Sources */ = {isa = PBXBuildFile; fileRef = 0057CBAA1B71A6290005D3F5 /* MyDefineSonClassOfStoryboardSegue.m */; };
+		0057CBAE1B71AF700005D3F5 /* MyDefineSonUnWind.m in Sources */ = {isa = PBXBuildFile; fileRef = 0057CBAD1B71AF700005D3F5 /* MyDefineSonUnWind.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -42,6 +47,16 @@
 		005528271B70C2520093A91A /* MyDefineAnimationExchangeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MyDefineAnimationExchangeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0055282C1B70C2520093A91A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		0055282D1B70C2520093A91A /* MyDefineAnimationExchangeTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MyDefineAnimationExchangeTests.m; sourceTree = "<group>"; };
+		005528371B70C5330093A91A /* FirstViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FirstViewController.h; sourceTree = "<group>"; };
+		005528381B70C5330093A91A /* FirstViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FirstViewController.m; sourceTree = "<group>"; };
+		0057CBA31B71A53B0005D3F5 /* SecondViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
+		0057CBA41B71A53B0005D3F5 /* SecondViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
+		0057CBA61B71A54D0005D3F5 /* ThirdViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ThirdViewController.h; sourceTree = "<group>"; };
+		0057CBA71B71A54D0005D3F5 /* ThirdViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ThirdViewController.m; sourceTree = "<group>"; };
+		0057CBA91B71A6290005D3F5 /* MyDefineSonClassOfStoryboardSegue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyDefineSonClassOfStoryboardSegue.h; sourceTree = "<group>"; };
+		0057CBAA1B71A6290005D3F5 /* MyDefineSonClassOfStoryboardSegue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyDefineSonClassOfStoryboardSegue.m; sourceTree = "<group>"; };
+		0057CBAC1B71AF700005D3F5 /* MyDefineSonUnWind.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyDefineSonUnWind.h; sourceTree = "<group>"; };
+		0057CBAD1B71AF700005D3F5 /* MyDefineSonUnWind.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyDefineSonUnWind.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -87,7 +102,17 @@
 				005528131B70C2520093A91A /* AppDelegate.m */,
 				005528181B70C2520093A91A /* ViewController.h */,
 				005528191B70C2520093A91A /* ViewController.m */,
+				005528371B70C5330093A91A /* FirstViewController.h */,
+				005528381B70C5330093A91A /* FirstViewController.m */,
 				0055281B1B70C2520093A91A /* Main.storyboard */,
+				0057CBAC1B71AF700005D3F5 /* MyDefineSonUnWind.h */,
+				0057CBAD1B71AF700005D3F5 /* MyDefineSonUnWind.m */,
+				0057CBA31B71A53B0005D3F5 /* SecondViewController.h */,
+				0057CBA41B71A53B0005D3F5 /* SecondViewController.m */,
+				0057CBA61B71A54D0005D3F5 /* ThirdViewController.h */,
+				0057CBA71B71A54D0005D3F5 /* ThirdViewController.m */,
+				0057CBA91B71A6290005D3F5 /* MyDefineSonClassOfStoryboardSegue.h */,
+				0057CBAA1B71A6290005D3F5 /* MyDefineSonClassOfStoryboardSegue.m */,
 				0055281E1B70C2520093A91A /* Images.xcassets */,
 				005528201B70C2520093A91A /* LaunchScreen.xib */,
 				005528151B70C2520093A91A /* MyDefineAnimationExchange.xcdatamodeld */,
@@ -222,10 +247,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0057CBA51B71A53B0005D3F5 /* SecondViewController.m in Sources */,
 				005528171B70C2520093A91A /* MyDefineAnimationExchange.xcdatamodeld in Sources */,
 				005528141B70C2520093A91A /* AppDelegate.m in Sources */,
+				005528391B70C5330093A91A /* FirstViewController.m in Sources */,
+				0057CBAB1B71A6290005D3F5 /* MyDefineSonClassOfStoryboardSegue.m in Sources */,
 				0055281A1B70C2520093A91A /* ViewController.m in Sources */,
 				005528111B70C2520093A91A /* main.m in Sources */,
+				0057CBAE1B71AF700005D3F5 /* MyDefineSonUnWind.m in Sources */,
+				0057CBA81B71A54D0005D3F5 /* ThirdViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -420,6 +450,7 @@
 				005528331B70C2520093A91A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		005528341B70C2520093A91A /* Build configuration list for PBXNativeTarget "MyDefineAnimationExchangeTests" */ = {
 			isa = XCConfigurationList;
@@ -428,6 +459,7 @@
 				005528361B70C2520093A91A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
